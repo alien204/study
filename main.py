@@ -1,6 +1,7 @@
-for i in range(int(input())):
-    h,x,y = map(int,input().split())
-    if x>y:
-        print("1")
-    else:
-        print("0")
+num = int(input('enter a number : '))
+count = 0
+while(num!=0):
+    rem = num%10
+    count += 1
+    num = num//10
+print('no of digits = ',count)

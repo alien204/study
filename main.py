@@ -1,7 +1,7 @@
-num = int(input('enter a number : '))
+import pprint
+message ='cac bb'
 count = 0
-while(num!=0):
-    rem = num%10
-    count += 1
-    num = num//10
-print('no of digits = ',count)
+for i in message: 
+    count.setdefault(i, 0) 
+    count[i] =count[i] +1 
+pprint.pprint(count)
